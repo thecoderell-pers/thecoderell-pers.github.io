@@ -14,9 +14,11 @@
     </header>
     <main>
       <input id="USERNAME" placeholder="Username">
+      <br>
       <input id="PASSWORD" placeholder="Password">
       <div class="g-signin2" data-onsuccess="onSignIn"></div>
-      <button onclick="Sumit(document.getElementById("USERNAME").value, document.getElementById("PASSWORD").value>Sumit</button>
+      <button onclick="Sumit(document.getElementById("USERNAME").value, document.getElementById("PASSWORD").value)>Sumit</button>
+      <br>
       <a href="#" onclick="signOut();">Sign out</a>
       <script>
         function signOut() {
